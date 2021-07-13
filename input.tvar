@@ -1,0 +1,9 @@
+PANEL     HEIGHT: 500, VAR: test ,WIDTH: 500;
+IMG FILEPATH: "src/imgSource/dog.jpg", POS: (50,80, 1), WIDTH: 100, HEIGHT: 100, VAR: doggy;
+TXT CONTENT: "CPSC410", POS: (150,50, 2), FONTSIZE: 50, VAR: cpsc410, TCOLOR: black;
+LOOP [doggy],  DIR: HOR,TIMES: 4, SHF: 90, POS: (50,  100, 1);
+TXT CONTENT: "I love these doggies", POS: (150,250,2), FONTSIZE: 20, TCOLOR: BLUE, VAR: dogtxt;
+IMG FILEPATH: "src/imgSource/template.jpg", POS: (50,300,1), WIDTH: 100, HEIGHT: 100, VAR: template ;
+TXT CONTENT: "I am LOOKING at you!!", POS: (180,320,2), FONTSIZE: 20, VAR: templatetxt, TCOLOR: RED;
+LOOP [template,doggy],  DIR: HOR,TIMES: 2, SHF: 90, POS: (50,  400,1);
+IF (doggy.WIDTH, test.WIDTH / 2, <), THEN (doggy.WIDTH = doggy.WIDTH * 2) ELSE (doggy.WIDTH = doggy.WIDTH / 2);

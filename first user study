@@ -1,0 +1,9 @@
+First user study:
+In this user study, we had 2 volunteers, one has coding experience and the other one has no coding background. 
+We explained our idea and basic grammar to the volunteers. We asked them to try some basic features including adding a text.(beta version)
+
+Then we asked volunteers to give us feedback. We got: 
+1.Every attribute has a strict policy on position, meaning that each attribute should only occur at a certain position. Our volunteers do not like this.
+2.Our volunteers like the idea we have all fixed literals capitalized. They think this makes the language easier to learn. 
+3.They like the idea that they can generate the poster at any time. So they can visualize what has changed and what should be done next to the poster.
+4.They don’t like that there are too many fixed literals in this language. They need to memorize all the fixed literals, so they can code.

@@ -1,0 +1,5 @@
+PANEL     HEIGHT: 700, VAR: test ,WIDTH: 500,;
+IMG FILEPATH: "src/imgSource/dog.jpg", POS: (50,50), WIDTH: 100, HEIGHT: 100, VAR: doggy;
+TXT CONTENT: "This is a dog", POS: (20,20), FONTSIZE: 20, VAR: txtDog;
+LOOP [doggy, txtDog],  DIR: VER,TIMES: 3, SHF: 100, POS: (10,  5), IF (WIDTH, 200, <);
+IF (doggy.WIDTH, test.WIDTH / 2, <), THEN (doggy.WIDTH = doggy.WIDTH * 2) ELSE (doggy.WIDTH = doggy.WIDTH / 2);

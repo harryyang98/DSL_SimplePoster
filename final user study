@@ -1,0 +1,10 @@
+Final user study: 
+In the final user study, we had 2 volunteers, one is the same person from the last user study who has previous coding experiences and the other one is a new volunteer who has no experience in coding.
+We showed them the complete grammar and a sample input. We showed them how each feature works and the sample poster we generated. 
+
+Then we asked the volunteers to code themself and give us feedback. We got: 
+1.The user interface does not look good. Especially the scrolling down part. It is really annoying. Also, the execute button is hidden at the bottom, which makes it confusing and hard to find.
+2.The position of image and text is not accurate. They are not showing at the position as our volunteers expected. 
+3.Our volunteers can not change the background color of the poster.
+4.Our volunteers like the input order does not matter anymore. As long as they mention the attributes correctly, the program could run fine. 
+5.Our code experienced volunteer doesn't like the way writting the entire for loop or if condition into one line. He prefers the Json way.
